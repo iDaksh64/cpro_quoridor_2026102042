@@ -1,7 +1,7 @@
 CC = gcc
-SRC = src/main.c src/board.c src/move.c src/wall.c
+SRC = main.c board.c move.c wall.c
 
-wall-game: $(SRC) src/game.h
+wall-game: $(SRC) game.h
 	$(CC) -o $@ $(SRC)
 
 clean:
