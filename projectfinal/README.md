@@ -16,8 +16,8 @@ A two-player, turn-based console board game on a 9x9 grid.
 
 | File | Contents |
 |------|----------|
-| `src/main.c` | Global state and the game loop |
-| `src/board.c` | `print_board()` |
-| `src/move.c` | `move()` |
-| `src/wall.c` | `wall()` |
-| `src/game.h` | Shared declarations |
+| `main.c` | Global state and the game loop |
+| `board.c` | `print_board()` |
+| `move.c` | `move()` |
+| `wall.c` | `wall()` |
+| `game.h` | Shared declarations |
