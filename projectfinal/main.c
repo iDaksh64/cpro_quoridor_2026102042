@@ -24,7 +24,7 @@ int main() {
             player = 'B';
         printf("Player %c:", player);
         
-        if (scanf("%s", input) != 1) break;
+        scanf("%s", input);
         
         if (strcmp(input, "move") == 0) {
             scanf("%s", position);
